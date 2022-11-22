@@ -1,0 +1,48 @@
+.frame2{ 
+    
+    /* max-width: 1200px; */
+   background-image: url(img/background2.png);
+   display: flex;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+} 
+
+.title_frame2 {
+   color:seashell;
+   font-size: 80px;
+   top: 150px;
+   width: max-content;
+  left: 650px;
+  position: absolute;
+}
+
+.Text_frame2 {
+   color:seashell;
+   position: absolute;
+   width: 500px;
+   font-size: 24px;
+   top: 600px;
+   left: 100px;
+}
+
+.Text2_frame2 {
+   position: absolute;
+  color: cornsilk;
+   font-size: 40px;
+bottom:280px;
+right: 300px;
+width: max-content;
+}
+
+.Title2 {
+   position: absolute;
+   font-size: 55px;
+   bottom: 150px;
+   right: 390px;
+   color: cornsilk;
+}
+
+.frame2_image{
+    filter: grayscale(100%);
+}

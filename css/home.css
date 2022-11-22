@@ -1,0 +1,25 @@
+.title {
+    width: max-content;
+    color:black;
+    text-shadow: white;
+    font-size: 70px;      
+    position: absolute;
+    text-shadow: -3px -5px 4px #fff;
+    top: 700px;
+    left: 350px;
+    position: absolute;
+    text-transform: uppercase; 
+    /* position: absolute; */
+    
+} 
+
+    
+.home { 
+    display: flex;
+     background-image: url(img/backgroud.png); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* position: relative; */
+     /* width: 1200px;  */
+   /* margin-top: 40px; */
+}
