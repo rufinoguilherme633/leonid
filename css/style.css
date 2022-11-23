@@ -56,14 +56,20 @@ main {
     grid-area: content;
 }  
 
-  /* .frame3 {
-    display: flex; 
- background-image: url(../img/galaxia.png); 
+   .frame3 {
+ display: flex;  
+  /* background-image: url(../img/galaxia.png);   */
      background-repeat: no-repeat;
-   background-size: cover; 
+    background-size: cover;
+    /* height: fit-content;   */
+  background-color: aqua;
+    height: 100vh; 
+    width: 100vw;  
+   
 
  }  
- .galaxia {
+ 
+ /* .galaxia {
     position: absolute;
     background-color: blue;
 } 
@@ -108,4 +114,4 @@ main {
     background-color: khaki;
     
     
-}   */
+}    */

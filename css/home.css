@@ -5,13 +5,13 @@
     font-size: 70px;      
     /* position: absolute; */
     text-shadow: -3px -5px 4px #fff;
- top: 700px; 
+ top: 560px; 
     left: 350px;
      position: absolute; 
     text-transform: uppercase; 
      /* position: fixed;  */
      z-index: 1;
-     
+     height: 100vh;
     
 } 
 
