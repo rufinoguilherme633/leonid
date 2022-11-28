@@ -1,0 +1,9 @@
+@media(max-width:640px) {
+footer{
+    max-width: 640px;
+}
+.footer{
+   font-size: 20px;
+   margin-left: 30px;
+}
+}

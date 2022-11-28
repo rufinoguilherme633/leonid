@@ -18,7 +18,7 @@ header {
 /*para a imagem ficar no centro  */
     justify-content: space-between;
     align-items: center;
-    
+    width: 100vw;
 
     /* position: fixed; */
     /* top: 0; */
@@ -27,7 +27,11 @@ header {
 height: 80px;
 z-index: 666;
 
+
 /* max-width: 1200px; */
+}
+a {
+    text-decoration: none;
 }
 
 main {
@@ -102,7 +106,7 @@ main {
     display: flex;
     align-items: center; 
      /* justify-content: space-between;  */
-     align-items: center; 
+     /* align-items: center;  */
      flex-direction: row;
     gap: 10px;
      position: absolute; 
@@ -168,3 +172,19 @@ main {
     
     
 }    */
+footer {
+    background-color: black;
+}
+.footer {
+    color:white;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin-left: 500px;
+    font-size: 30px;
+    /* background-color: black; */
+    
+
+
+
+}
