@@ -1,16 +1,20 @@
 .frame2{ 
     
     /* max-width: 1200px; */
-   /* background-image: url(img/background2.png); */
+    background-image: url(../img/backgroud2.jpg);
    display: flex;
-   /* background-repeat: no-repeat;
-   background-size: cover; */
+   background-repeat: no-repeat;
+   background-size: cover;
      width: 100vh;
-   /* position: relative; */
+ position: relative; 
    height: calc(100vh - 80px);
    height: 100vh;
    display: flex;
   justify-content: center;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 } 
 
 .title_frame2 {
@@ -48,10 +52,10 @@ width: max-content;
    color: cornsilk;
 }
 
-.frame2_image{
+ /* .frame2_image{
     filter: grayscale(100%);
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
+}  */
 

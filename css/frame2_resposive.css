@@ -1,6 +1,7 @@
 @media(max-width:640px) {
-    /* .frame2_image {
+     .frame2_image {
         width: 640px;
-    } */
+        height: 100vh;
+    } 
     
 }
