@@ -1,9 +1,9 @@
 @media(max-width:640px) {
-   .frame2 
+
      .frame2_image {
-        width: 100%;
+         /* width: 640px;
         height: 100vh;
-        position: absolute;
+         position: absolute;  */
         
        /* display: grid;
        grid-template-areas: 
@@ -18,27 +18,53 @@
     } 
     .title_frame2{
         /* grid-area:title_frame2; */
-        position: relative;
+         /* position: relative;
+        background-color: aqua; */
+        height: max-content;
+        font-size: 50px; 
+       
+      left: 10px;
+      
+        
         
     }
+    .frame2_image {
+
+      width: 100%;
+      height: 100vh;
+   }
        .Text_frame2{
         /* grid-area:Text_frame2; */
-        position: relative;
-        margin-top: -300px;
-        background-color: crimson;
-        height: max-content;
+         position: relative;
+       /* left: -800px; */
+     
+        font-size: 35px;
+        left: 20px;
+       
+        top: -600px;
+        height: 300px; 
+        
+
         
        }
        .Text2_frame2{
         /* grid-area:Text2_frame2; */
-        position: relative;
+         position: relative; 
+        top: -600px;
+        /* background-color: aqua; */
+        left: 30px;
+        height: max-content;
        }
        .Title2{
         /* grid-area:Title2; */
-        position: relative;
+        /* position: relative;
         margin-top: 900px;
         
-        background-color: crimson;
+        background-color: crimson; */
+        top: 700px;
+        /* background-color: teal; */
+        height: max-content;
+      left: 100px;
        }
 
 
